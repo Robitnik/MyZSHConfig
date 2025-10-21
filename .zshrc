@@ -51,3 +51,17 @@ zinit light zsh-users/zsh-syntax-highlighting
 zinit light marlonrichert/zsh-autocomplete
 
 ### End of Zinit's installer chunk
+
+alias ls='lsd'
+alias ll='ls -la --color=auto'
+alias la='ls -A'
+alias l='ls -CF'
+alias gs='git status'
+alias gc='git commit'
+alias ..='cd ..'
+alias ...='cd ../..'
+alias c='clear'
+alias cls='clear'
+alias h='history'
+alias grep='grep --color=auto'
+alias rm='rm -i'
